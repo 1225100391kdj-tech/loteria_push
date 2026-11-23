@@ -1,0 +1,32 @@
+00:00 +0: loading C:/GTID243/loteria_push/test/pantalla_test.dart
+00:00 +0: Muestra al ganador y desactiva el botón Lotería
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: exactly one matching candidate
+  Actual: _TextContainingWidgetFinder:<Found 0 widgets with text containing Beto ganó con la fila 3:
+[]>
+   Which: means none were found but one was expected
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///C:/GTID243/loteria_push/test/pantalla_test.dart:156:7)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1953:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///C:/GTID243/loteria_push/test/pantalla_test.dart line 156
+The test description was:
+  Muestra al ganador y desactiva el botón Lotería
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:00 +0 -1: Muestra al ganador y desactiva el botón Lotería [E]
+  Test failed. See exception logs above.
+  The test description was: Muestra al ganador y desactiva el botón Lotería
+  
+00:00 +0 -1: Some tests failed.
+
+Failing tests:
+  C:/GTID243/loteria_push/test/pantalla_test.dart: Muestra al ganador y desactiva el botón Lotería
